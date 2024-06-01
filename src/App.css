@@ -5,12 +5,17 @@
   font-family: cursive;
   line-height: 2;
 }
-#main{
-  background: linear-gradient(burlywood,brown);
-  /* background-color: rgb(229, 173, 105); */
-  height: 135rem;
+
+
+html,body{
+   height: 100%;
 }
 
+#main{
+  background: linear-gradient(rgb(155, 195, 248),rgb(26, 93, 193),rgb(20, 72, 150));
+  height: 100%;
+  padding-bottom: 1rem;
+}
 
 
 #card{
@@ -24,9 +29,14 @@
   border-radius: 50px;
   padding: 2rem;
   justify-content: space-between;
+  border: 2px solid white;
 }
+
 h1{
+  padding-top: 1rem;
   text-align: center;
+  color:rgb(14, 14, 100);
+  text-shadow: 2px 3px rgb(26, 93, 193);
   font-size: 4rem;
   font-weight: 600;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

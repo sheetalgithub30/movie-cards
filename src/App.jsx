@@ -18,9 +18,8 @@ function App() {
               <p>⭐{movie.rating}</p>
               <p>Directed by: <b>{movie.director}</b></p>
               <p>Description: "{movie.description}"</p>
-
-            </div>
-          </div>
+            </div> 
+           </div>
         );
      })}      
     </div>

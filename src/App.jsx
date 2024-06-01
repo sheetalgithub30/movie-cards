@@ -14,10 +14,10 @@ function App() {
             </div>
             <div id="content">
               <h2>{movie.title}</h2>
-              <p>{movie.duration}</p>
+              <p>⏱️{movie.duration}</p>
               <p>⭐{movie.rating}</p>
-              <p>Directed by: <b>{movie.director}</b></p>
-              <p>Description: "{movie.description}"</p>
+              <p>🖋️Directed by: <b>{movie.director}</b></p>
+              <p>🔖Description: "{movie.description}"</p>
             </div> 
            </div>
         );
